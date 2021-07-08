@@ -2,10 +2,11 @@
   "name": "my_notebook",
   "version": "0.1.0",
   "description": "个人练习小册",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx webpack",
+    "start": "electron .",
     "dev": "npx webpack serve --open --port=8090"
   },
   "repository": {
@@ -33,6 +34,7 @@
     "@babel/preset-react": "^7.13.13",
     "babel-loader": "^8.2.2",
     "css-loader": "^5.2.6",
+    "electron": "^13.1.6",
     "file-loader": "^6.2.0",
     "html-loader": "^2.1.2",
     "html-webpack-plugin": "^5.3.1",
